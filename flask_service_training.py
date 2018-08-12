@@ -1,5 +1,5 @@
 # https://dzone.com/articles/restful-web-services-with-python-flask
-
+import json
 from flask import Flask
 from flask import jsonify
 from flask import request
@@ -46,6 +46,8 @@ def updateEmp(empId):
 
 @app.route('/empdb/employee',methods=['POST'])
 def createEmp():
+
+    print(type(request.json))
     dat = {
         'id':request.json['id'],
         'name':request.json['name'],
@@ -54,6 +56,21 @@ def createEmp():
     empDB.append(dat)
     return jsonify(dat)
 
+
+@app.route('/emp/post',methods=['POST'])
+def createEmp_new():
+
+    request.get_data()
+    data_dict = json.loads(request.data)
+    print('Request Paylosd: {}'.format(data_dict))
+
+    dat = {
+        'id':data_dict['id'],
+        'name':data_dict['name'],
+        'title':data_dict['title']
+    }
+    empDB.append(dat)
+    return jsonify(dat)
 
 @app.route('/empdb/employee/<empId>',methods=['DELETE'])
 def deleteEmp(empId):
