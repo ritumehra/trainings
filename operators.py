@@ -35,6 +35,11 @@ y = 12
 # Output: x > y is False
 print('x > y  is', x > y)
 
+if x>y:
+    print("X is greater")
+else:
+    print("y is greater")
+
 # Output: x < y is True
 print('x < y  is', x < y)
 
@@ -85,7 +90,7 @@ print(x3 is y3)
 print("=========== Membership Operators =============")
 
 x = 'Hello world'
-y = {1:'a',2:'b'}
+y = {1:'a','xoriant':'b'}
 
 # Output: True
 print('H' in x)
@@ -95,6 +100,9 @@ print('hello' not in x)
 
 # Output: True
 print(1 in y)
+
+if('xoriant' in y):
+    print(y['xoriant'])
 
 # Output: False
 print('a' in y)
