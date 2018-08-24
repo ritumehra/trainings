@@ -48,15 +48,3 @@ r = requests.post(url, data=payload)
 
 print(r.headers)
 print(r.text)
-#
-# r = requests.post('http://httpbin.org/post')
-# print(r.text)
-
-# Git Hub Repository creation
-# import requests, json
-#
-# github_url = "https://api.github.com/user/repos"
-# data = json.dumps({'name': 'test1', 'description': 'Python Training Repository'})
-# r = requests.post(github_url, data, auth=('ritumehra', 'ritugaurav143.'))
-#
-# print(r.json)

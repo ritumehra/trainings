@@ -82,5 +82,11 @@ def deleteEmp(empId):
     return jsonify({'response':'Success'})
 
 
+@app.route('/',methods=['GET'])
+def homepage():
+
+    return jsonify({'response':'Welcome to the Training Service'})
+
+
 if __name__ == '__main__':
     app.run()
