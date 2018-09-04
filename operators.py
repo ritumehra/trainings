@@ -2,28 +2,31 @@
 
 print("=========== Arithmetic Operators =============")
 
-x = 4
+x = 5
 y = 2
 
-# Output: x + y = 6
+# Output: x + y = 7
 print('x + y =', x + y)
 
-# Output: x - y = 2
+# Output: x - y = 3
 print('x - y =', x - y)
 
-# Output: x * y = 8
+# Output: x * y = 10
 print('x * y =', x * y)
 
-# Output: x / y = 2.0
+# Division Returns Exact Quotient
+# Output: x / y = 2.5
 print('x / y =', x / y)
 
+# Floor Division : Returns Quotient
 # Output: x // y = 2
 print('x // y =', x // y)
 
+# Exponent :
 # Output: x ** y = 16
 print('x ** y =', x ** y)
 
-# Returns remainder
+# Modulas : Returns remainder
 print('x % y =', x % y)
 
 
@@ -86,6 +89,9 @@ print(x2 is y2)
 
 # Output: False
 print(x3 is y3)
+
+print("print(type(x1) is int):::")
+print(type(x1) is int)
 
 print("=========== Membership Operators =============")
 
