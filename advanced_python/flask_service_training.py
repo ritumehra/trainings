@@ -1,4 +1,5 @@
 # https://dzone.com/articles/restful-web-services-with-python-flask
+# https://stormpath.com/blog/put-or-post
 import json
 from flask import Flask
 from flask import jsonify
