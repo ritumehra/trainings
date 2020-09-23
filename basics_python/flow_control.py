@@ -1,33 +1,33 @@
-#
-# print("=========== if.. elif..else =============")
-#
-# # If the number is positive, we print an appropriate message
-#
-# # num = 3
-# # if num > 0:
-# #     print(num, "is a positive number.")
-# # print("This is always printed.")
-#
-# # num = -1
-# # if num > 0:
-# #     print(num, "is a positive number.")
-# # print("This is also always printed.")
-#
-# num = 4
+
+print("=========== if.. elif..else =============")
+
+# If the number is positive, we print an appropriate message
+
+# num = 3
 # if num > 0:
 #     print(num, "is a positive number.")
-# else:
-#     print(num, "is a nehative number.")
+# print("This is always printed.")
 #
-# num = -9
+# num = -1
 # if num > 0:
 #     print(num, "is a positive number.")
-# elif num == 0:
-#     print(num, "is ZERO.")
-# elif num < 0:
-#     print(num, "is a negative number.")
-# else:
-#     print("INVALID NUMBER")
+# print("This is also always printed.")
+
+num = -8
+if num > 0:
+    print(num, "is a positive number.")
+else:
+    print(num, "is a negative number.")
+
+num = -9
+if num > 0:
+    print(num, "is a positive number.")
+elif num == 0:
+    print(num, "is ZERO.")
+elif num < 0:
+    print(num, "is a negative number.")
+else:
+    print("INVALID NUMBER")
 #
 # num = 3
 #

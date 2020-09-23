@@ -1,3 +1,13 @@
+i = 10
+if i == 10:
+    print('TRaining')
+
+print("Training1")
+
+# My Training Demo
+
+
+
 print("=============== Indentation ===============")
 
 print("For Started")
@@ -19,15 +29,18 @@ print("=============== Comments ===============")
 
 print("=============== Docstring ===============")
 
+
 def sum(num, num1):
     """
-        Function to find sum of two number
-        num1: first number ... int 
+        Desc: Function to find sum of two number
+        :param : num : str
+        :param : num1: first number ... int 
+        :return : 
     """
-    """ test """
+    """ RITU """
     print("Inside Sum Function:")
     return num+num1
 
-sum(2,3)
+print(sum(2,3))
 print(sum.__doc__)
 

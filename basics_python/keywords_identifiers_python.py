@@ -9,9 +9,9 @@ print(keyword.kwlist)
 # if = 1
 
 # Case Sensitive
-train_var = " Training"
-train_Var = "Training Var"
-train_var = " Training Var"
+train_var = " Training";
+train_Var = "Training Var";
+train_var = " Training Var";
 print(train_var, "\n", train_Var)
 
 # Cannot start with a digit.
